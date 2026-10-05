@@ -18,7 +18,7 @@ For each endpoint, load was increased in stages (10 → 50 → 100 → 150 concu
 
 ## Summary of Findings
 - The Login API showed a sharp increase in response time as load increased, with errors (25.33%) appearing at 150 concurrent users, suggesting a bottleneck in authentication processing.
-- *(Add a line here once Read Post / Create Post results are in, comparing them)*
+
 
 ## Files in this Repository
 - `jmx/` — JMeter test plans (.jmx) for each endpoint
